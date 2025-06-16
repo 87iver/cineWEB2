@@ -1,0 +1,54 @@
+.letra{
+    color: #0b140a;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.principal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    display: grid;
+    place-items: center center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 2%;
+}
+.caja {
+    display: grid;
+    place-items: center;
+    width: 90%;
+    height: 90%;
+    margin: 0%;
+    padding: 0%;
+}
+.peli{
+    
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 1%;
+    padding: 1%;
+
+}
+.peli img{
+    
+    display: grid;
+    place-items: center;
+    width: 200px;
+    height: 270px;
+    border-radius: 15px;
+    margin: 1%;
+    padding: 1%;
+}
+.nom{
+    display: grid;
+    place-items: center;
+    width: 250px;
+    height: 60px;
+    margin: 4%;
+    padding: 0%;
+    border: 0.1cm solid;
+    border-radius: 35px;
+    backdrop-filter: blur(10px);
+}

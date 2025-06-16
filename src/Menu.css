@@ -1,0 +1,84 @@
+.lñsdbody{
+  background-image: url(https://musicart.xboxlive.com/7/896e5100-0000-0000-0000-000000000002/504/image.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 10%;
+
+}
+
+
+.ssadbody{
+    background-image: url(../../public/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+h2{
+    display: grid;
+    text-align: center;
+    width: 40%;
+    height: 100%;
+    color: #6e1106;
+    font-size: 14px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: 0.1cm solid;
+    border-radius: 35px;
+    backdrop-filter: blur(10px);
+}
+img{
+  width: 100%;
+    height: 95%;
+    padding: 0%;
+    border-radius: 15%;
+}
+
+
+
+
+
+header{
+  background-color: transparent;
+}
+nav{
+  display: flex;
+  width: 98%;
+  height: 98px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 0.1cm solid white;
+  gap: 7%;
+}
+.gafas{
+  width: 110px;
+  height: 80px;
+  background-color: transparent;
+  border: none;
+  padding-left: 16%;
+  padding-top: 6%;
+} 
+.logo{
+  width: 11%;
+  height: 98%;
+  filter: drop-shadow(0.1px 0.1px 10px white);
+}
+.inicio{
+  display: flex;
+  width: 11%;
+  height: 98%;
+}
+.estreno{
+  display: flex;
+  width: 11%;
+  height: 98%;
+}
+.log{
+  width: 50%;
+  height: 50%;
+  background-color: transparent;
+  border: none;
+  padding-top: 27%;
+  padding-left: 12%;
+  filter: drop-shadow(0.1px 0.1px 5px white);
+}

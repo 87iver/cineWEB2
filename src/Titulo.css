@@ -1,0 +1,13 @@
+.contenedor{
+    display: grid;
+    width: 100%;
+    height: 70%;
+    padding: 0.1cm;
+    gap: 0.1cm;
+    place-items: center;
+    background-color: black ;
+}
+.titulo{
+    height: 90%;
+    border-radius: 10%;
+}
